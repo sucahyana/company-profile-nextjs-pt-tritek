@@ -6,7 +6,7 @@ import Text from 'components/atoms/Text'
 interface ProjectCardProps extends LazyCardProps {
   title: string
   description: string
-  image: string // Tambahkan prop gambar dengan tipe string
+  image: string
 }
 
 const ProjectCard = ({

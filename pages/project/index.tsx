@@ -9,6 +9,7 @@ import randomString from 'utils/randomString'
 
 const Project = () => {
   interface Project {
+    image: string;
     title: string
     description: string
   }
@@ -16,7 +17,7 @@ const Project = () => {
     {
       title: 'Press Part',
       description: 'Product Dari beberapa perusahaan',
-      image : '/images/dudukan-plat-nomor.png'
+      image : '/images/dudukan-plat-nomor.png',
     },
     {
       title: 'Cutting',

@@ -14,7 +14,7 @@ const NavBrand = () => {
       >
         <Link href={'/'} passHref>
           <div className="w-fit h-fit">
-            <Image src={'/images/logo.png'} width='90px' height={60} alt='company brand' loading='lazy' />
+         <h1>PT TRITEK INDONESIA</h1>
           </div>
         </Link>
       </div>

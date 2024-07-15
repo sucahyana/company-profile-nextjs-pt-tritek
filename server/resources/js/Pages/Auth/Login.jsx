@@ -32,6 +32,7 @@ export default function Login({ status, canResetPassword }) {
 
             {status && <div className="mb-4 font-medium text-sm text-green-600">{status}</div>}
 
+
             <form onSubmit={submit}>
                 <div>
                     <InputLabel htmlFor="email" value="Email" />
@@ -77,7 +78,9 @@ export default function Login({ status, canResetPassword }) {
                     </label>
                 </div>
 
+
                 <div className="flex items-center justify-end mt-4">
+
                     {canResetPassword && (
                         <Link
                             href={route('password.request')}
@@ -85,6 +88,7 @@ export default function Login({ status, canResetPassword }) {
                         >
                             Forgot your password?
                         </Link>
+
                     )}
 
                     <PrimaryButton className="ms-4" disabled={processing}>
